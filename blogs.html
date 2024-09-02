@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunis - Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body class="about-page">
+    <nav class="navbar navbar-expand-lg">
+        <header class="header position-fixed vh-100">
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse vh-100" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-center text-center">
+                    <li class="icon d-flex justify-content-center">
+                        <div class="menu-icon">
+                            <a href="index.html" class="icon-inner text-white text-decoration-none">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </div>
+                        <div class="menu-button">
+                            <button class="btn"><a href="index.html"
+                                    class="text-decoration-none text-white text-uppercase">home</a></button>
+                        </div>
+                    </li>
+                    <li class="icon d-flex justify-content-center">
+                        <div class="menu-icon">
+                            <a href="about.html" class="icon-inner text-white text-decoration-none"><i
+                                    class="fas fa-user"></i></a>
+                        </div>
+                        <div class="menu-button">
+                            <button class="btn"><a href="about.html"
+                                    class="text-decoration-none text-white text-uppercase">about</a></button>
+                        </div>
+                    </li>
+                    <li class="icon d-flex justify-content-center">
+                        <div class="menu-icon">
+                            <a href="portfolio.html" class="icon-inner text-white text-decoration-none"><i
+                                    class="fas fa-briefcase"></i></a>
+                        </div>
+                        <div class="menu-button">
+                            <button class="btn"><a href="portfolio.html"
+                                    class="text-decoration-none text-white text-uppercase">portfolio</a></button>
+                        </div>
+                    </li>
+                    <li class="icon d-flex justify-content-center">
+                        <div class="menu-icon">
+                            <a href="contact.html" class="icon-inner text-white text-decoration-none"><i
+                                    class="fas fa-envelope-open"></i></a>
+                        </div>
+                        <div class="menu-button">
+                            <button class="btn"><a href="contact.html"
+                                    class="text-decoration-none text-white text-uppercase">contact</a></button>
+                        </div>
+                    </li>
+                    <li class="icon d-flex justify-content-center">
+                        <div class="menu-icon">
+                            <a href="blogs.html" class="icon-inner text-white text-decoration-none"><i
+                                    class="fas fa-comments"></i></a>
+                        </div>
+                        <div class="menu-button">
+                            <button class="btn"><a href="blogs.html"
+                                    class="text-decoration-none text-white text-uppercase">blog</a></button>
+                        </div>
+                    </li>
+                    <!-- <div class="cursor"></div>
+                    <div class="cursor-outer"></div> -->
+                </ul>
+            </div>
+        </header>
+    </nav>
+
+
+    <section class="main-heading-section">
+        <div class="text-center">
+            <h2 class="h2 text-white">MY <span class="yellow-color">BLOG</span></h2>
+            <span class="big-title d-block text-muted text-dark text-opacity-25">POSTS</span>
+        </div>
+    </section>
+
+    <section class="section">
+
+        <div class="info-div row m-0 mx-auto containerr pb-5">
+            <div class="carousel" id="blog_slide">
+
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-target="#blog_slide" data-bs-slide-to="0"></button>
+                    <button data-bs-target="#blog_slide" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row m-0">
+                            <div class="col-12 col-md-4 col-sm-6 div-1 p-0 p-2 p-lg-3">
+                                <div class="card bg-dark ">
+                                    <div class="card-header p-0 overflow-hidden border-bottom border-5 border-warning">
+                                        <img src="assets/img/blog-post-1.jpg" class="blog-img card-img-top w-100">
+                                    </div>
+
+                                    <div class="card-body p-4">
+                                        <h5 class="h5-blog-title card-title text-white">How to Own Your Audience by
+                                            Creating an Email List</h5>
+
+                                        <p class="card-text text-white mt-3">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+                                    </div>
+
+                                    <div class="card-footer text-center py-3">
+                                        <button class="btn btn-warning tex-dark px-4 py-2" data-bs-toggle="modal"
+                                            data-bs-target="#blog-modal-1"><a href="#"
+                                                class="text-decoration-none text-dark">Click Me</a></button>
+                                    </div>
+                                </div>
+                                <div class="modal" id="blog-modal-1">
+                                    <div class="modal-dialog modal-xl modal-lg modal-dialog-scrollable">
+                                        <div class="modal-content bg-dark text-white">
+                                            <div class="modal-header">
+                                                <h4 class="h4 me-4">How to Own Your Audience by Creating an Email List
+                                                </h4>
+                                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body row m-0">
+                                                <div class="col-lg-4 col-12 p-0">
+                                                    <img src="assets/img/blog-post-1.jpg"
+                                                        class="img-fluid border border-3 border-warning rounded-2">
+                                                </div>
+                                                <div class="col-lg-8 col-12 p-0 ps-lg-5 pt-3 pt-lg-0">
+                                                    <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                        elit. Incidunt provident quibusdam quisquam magnam consectetur
+                                                        eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                        dolor dolores similique corporis delectus, temporibus molestiae.
+                                                    </p>
+                                                    <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                        elit. Incidunt provident quibusdam quisquam magnam consectetur
+                                                        eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                        dolor dolores similique corporis delectus, temporibus molestiae.
+                                                    </p>
+                                                    <h5 class="h5">Features:</h5>
+                                                    <ul>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-6 div-1 p-0 p-2 p-lg-3">
+                                <div class="card bg-dark ">
+                                    <div class="card-header p-0 overflow-hidden border-bottom border-5 border-warning">
+                                        <img src="assets/img/blog-post-2.jpg" class="blog-img card-img-top w-100">
+                                    </div>
+
+                                    <div class="card-body p-4">
+                                        <h5 class="h5-blog-title card-title text-white">Top 10 Toolkits for Deep Learning in 2024</h5>
+
+                                        <p class="card-text text-white mt-3">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+                                    </div>
+
+                                    <div class="card-footer text-center py-3">
+                                        <button class="btn btn-warning tex-dark px-4 py-2" data-bs-toggle="modal"
+                                            data-bs-target="#blog-modal-2"><a href="#"
+                                                class="text-decoration-none text-dark">Click Me</a></button>
+                                    </div>
+                                    <div class="modal" id="blog-modal-2">
+                                        <div class="modal-dialog modal-xl modal-lg modal-dialog-scrollable">
+                                            <div class="modal-content bg-dark text-white">
+                                                <div class="modal-header">
+                                                    <h4 class="h4 me-4">Top 10 Toolkits for Deep Learning in 2024</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body row m-0">
+                                                    <div class="col-lg-4 col-12 p-0">
+                                                        <img src="assets/img/blog-post-2.jpg"
+                                                            class="img-fluid border border-3 border-warning rounded-2">
+                                                    </div>
+                                                    <div class="col-lg-8 col-12 p-0 ps-lg-5 pt-3 pt-lg-0">
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <h5 class="h5">Features:</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-6 div-1 p-0 p-2 p-lg-3">
+                                <div class="card bg-dark ">
+                                    <div class="card-header p-0 overflow-hidden border-bottom border-5 border-warning">
+                                        <img src="assets/img/blog-post-3.jpg" class="blog-img card-img-top w-100">
+                                    </div>
+
+                                    <div class="card-body p-4">
+                                        <h5 class="h5-blog-title card-title text-white">Everything You Need to Know About Web</h5>
+
+                                        <p class="card-text text-white mt-3">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+                                    </div>
+
+                                    <div class="card-footer text-center py-3">
+                                        <button class="btn btn-warning tex-dark px-4 py-2" data-bs-toggle="modal"
+                                            data-bs-target="#blog-modal-3"><a href="#"
+                                                class="text-decoration-none text-dark">Click Me</a></button>
+                                    </div>
+                                    <div class="modal" id="blog-modal-3">
+                                        <div class="modal-dialog modal-xl modal-lg modal-dialog-scrollable">
+                                            <div class="modal-content bg-dark text-white">
+                                                <div class="modal-header">
+                                                    <h4 class="h4 me-4">Everything You Need to Know About Web</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body row m-0">
+                                                    <div class="col-lg-4 col-12 p-0">
+                                                        <img src="assets/img/blog-post-3.jpg"
+                                                            class="img-fluid border border-3 border-warning rounded-2">
+                                                    </div>
+                                                    <div class="col-lg-8 col-12 p-0 ps-lg-5 pt-3 pt-lg-0">
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <h5 class="h5">Features:</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row m-0">
+                            <div class="col-12 col-md-4 col-sm-6 div-1 p-0 p-2 p-lg-3">
+                                <div class="card bg-dark ">
+                                    <div class="card-header p-0 overflow-hidden border-bottom border-5 border-warning">
+                                        <img src="assets/img/blog-post-4.jpg" class="blog-img card-img-top w-100">
+                                    </div>
+
+                                    <div class="card-body p-4">
+                                        <h5 class="h5-blog-title card-title text-white">How to Inject Humor & Comedy Into Your Brand</h5>
+
+                                        <p class="card-text text-white mt-3">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+                                    </div>
+
+                                    <div class="card-footer text-center py-3">
+                                        <button class="btn btn-warning tex-dark px-4 py-2" data-bs-toggle="modal"
+                                            data-bs-target="#blog-modal-4"><a href="#"
+                                                class="text-decoration-none text-dark">Click Me</a></button>
+                                    </div>
+                                </div>
+                                <div class="modal" id="blog-modal-4">
+                                    <div class="modal-dialog modal-xl modal-lg modal-dialog-scrollable">
+                                        <div class="modal-content bg-dark text-white">
+                                            <div class="modal-header">
+                                                <h4 class="h4 me-4">How to Inject Humor & Comedy Into Your Brand</h4>
+                                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body row m-0">
+                                                <div class="col-lg-4 col-12 p-0">
+                                                    <img src="assets/img/blog-post-4.jpg"
+                                                        class="img-fluid border border-3 border-warning rounded-2">
+                                                </div>
+                                                <div class="col-lg-8 col-12 p-0 ps-lg-5 pt-3 pt-lg-0">
+                                                    <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                        elit. Incidunt provident quibusdam quisquam magnam consectetur
+                                                        eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                        dolor dolores similique corporis delectus, temporibus molestiae.
+                                                    </p>
+                                                    <p class="mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                        elit. Incidunt provident quibusdam quisquam magnam consectetur
+                                                        eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                        dolor dolores similique corporis delectus, temporibus molestiae.
+                                                    </p>
+                                                    <h5 class="h5">Features:</h5>
+                                                    <ul>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                adipisicing elit. Incidunt provident quibusdam quisquam
+                                                                magnam consectetur eveniet numquam nulla! Optio rem
+                                                                fugit, ad excepturi neque, dolor dolores similique
+                                                                corporis delectus, temporibus molestiae.</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-6 div-1 p-0 p-2 p-lg-3">
+                                <div class="card bg-dark ">
+                                    <div class="card-header p-0 overflow-hidden border-bottom border-5 border-warning">
+                                        <img src="assets/img/blog-post-5.jpg" class="blog-img card-img-top w-100">
+                                    </div>
+
+                                    <div class="card-body p-4">
+                                        <h5 class="h5-blog-title card-title text-white">Women in Web Design: How To Achieve Success</h5>
+
+                                        <p class="card-text text-white mt-3">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+                                    </div>
+
+                                    <div class="card-footer text-center py-3">
+                                        <button class="btn btn-warning tex-dark px-4 py-2" data-bs-toggle="modal"
+                                            data-bs-target="#blog-modal-5"><a href="#"
+                                                class="text-decoration-none text-dark">Click Me</a></button>
+                                    </div>
+                                    <div class="modal" id="blog-modal-5">
+                                        <div class="modal-dialog modal-xl modal-lg modal-dialog-scrollable">
+                                            <div class="modal-content bg-dark text-white">
+                                                <div class="modal-header">
+                                                    <h4 class="h4 me-4">Women in Web Design: How To Achieve Success</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body row m-0">
+                                                    <div class="col-lg-4 col-12 p-0">
+                                                        <img src="assets/img/blog-post-5.jpg"
+                                                            class="img-fluid border border-3 border-warning rounded-2">
+                                                    </div>
+                                                    <div class="col-lg-8 col-12 p-0 ps-lg-5 pt-3 pt-lg-0">
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <h5 class="h5">Features:</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-6 div-1 p-0 p-2 p-lg-3">
+                                <div class="card bg-dark ">
+                                    <div class="card-header p-0 overflow-hidden border-bottom border-5 border-warning">
+                                        <img src="assets/img/blog-post-6.jpg" class="blog-img card-img-top w-100">
+                                    </div>
+
+                                    <div class="card-body p-4">
+                                        <h5 class="h5-blog-title card-title text-white">Evergreen versus topical content: An overview</h5>
+
+                                        <p class="card-text text-white mt-3">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
+                                    </div>
+
+                                    <div class="card-footer text-center py-3">
+                                        <button class="btn btn-warning tex-dark px-4 py-2" data-bs-toggle="modal"
+                                            data-bs-target="#blog-modal-6"><a href="#"
+                                                class="text-decoration-none text-dark">Click Me</a></button>
+                                    </div>
+                                    <div class="modal" id="blog-modal-6">
+                                        <div class="modal-dialog modal-xl modal-lg modal-dialog-scrollable">
+                                            <div class="modal-content bg-dark text-white">
+                                                <div class="modal-header">
+                                                    <h4 class="h4 me-4">Evergreen versus topical content: An overview</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body row m-0">
+                                                    <div class="col-lg-4 col-12 p-0">
+                                                        <img src="assets/img/blog-post-6.jpg"
+                                                            class="img-fluid border border-3 border-warning rounded-2">
+                                                    </div>
+                                                    <div class="col-lg-8 col-12 p-0 ps-lg-5 pt-3 pt-lg-0">
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing
+                                                            elit. Incidunt provident quibusdam quisquam magnam
+                                                            consectetur
+                                                            eveniet numquam nulla! Optio rem fugit, ad excepturi neque,
+                                                            dolor dolores similique corporis delectus, temporibus
+                                                            molestiae.
+                                                        </p>
+                                                        <h5 class="h5">Features:</h5>
+                                                        <ul>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mb-3">Lorem ipsum dolor sit, amet consectetur
+                                                                    adipisicing elit. Incidunt provident quibusdam
+                                                                    quisquam
+                                                                    magnam consectetur eveniet numquam nulla! Optio rem
+                                                                    fugit, ad excepturi neque, dolor dolores similique
+                                                                    corporis delectus, temporibus molestiae.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="cursor"></div>
+    <div class="cursor-outer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const cursor = document.querySelector(".cursor");
+        const cursorouter = document.querySelector(".cursor-outer");
+        // document.addEventListener("mousemove", (e) => {
+        //     cursor.style.left = e.pageX + "px";
+        //     cursor.style.top = e.pageY + "px";
+        //     cursorouter.style.left = e.pageX + "px";
+        //     cursorouter.style.top = e.pageY + "px";
+        // });
+        window.addEventListener("mousemove", (e) => {
+            const x = e.clientX;
+            const y = e.clientY;
+            cursor.animate({
+                left: `${x + 20}px`,
+                top: `${y + 20}px`
+            }, {
+                duration: 400,
+                fill: "forwards"
+            })
+        })
+        window.addEventListener("mousemove", (e) => {
+            const x = e.clientX;
+            const y = e.clientY;
+            cursorouter.animate({
+                left: `${x + 20}px`,
+                top: `${y + 20}px`
+            }, {
+                duration: 600,
+                fill: "forwards"
+            })
+        })
+        document.querySelectorAll("ul li ,button").forEach(link => {
+            link.addEventListener("mouseover", () => {
+                // cursorouter.style.transform = "scale(2)";
+                cursor.style.height = "65px";
+                cursor.style.width = "65px";
+                cursor.style.Border = "none";
+                cursor.style.backgroundColor = "#ffb400";
+                cursor.style.opacity = ".8";
+                cursor.style.transition = ".2s";
+                cursorouter.style.opacity = "0";
+                // cursor.style.zIndex = "1";
+            });
+            link.addEventListener("mouseout", () => {
+                cursor.style.height = "5px";
+                cursor.style.width = "5px";
+                // cursor.style.backgroundColor = "transparent";
+                cursor.style.backgroundColor = "#ffb400";
+                cursorouter.style.opacity = "1";
+                cursor.style.transition = ".2s";
+            });
+        });
+    </script>
+</body>
+
+</html>
